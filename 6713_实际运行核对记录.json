@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "scope": "Independent synthetic local HTTP stores; no client site access",
+  "counts": {
+    "a_products": 40,
+    "products_b": 29,
+    "missing_a": 30,
+    "downloaded": 20,
+    "unresolved": 10
+  },
+  "status_counts": {
+    "already_present": 10,
+    "downloaded": 20,
+    "unmatched_b": 4,
+    "ambiguous_b": 3,
+    "missing_b_image": 2,
+    "download_error": 1
+  },
+  "checks": {
+    "all_40_statuses_match_fixed_truth": true,
+    "all_20_images_decode": true,
+    "all_20_original_bytes_and_sha256_match": true,
+    "full_csv_40_and_review_csv_10_match": true,
+    "gui_real_event_loop_and_worker": true,
+    "gui_report_button_actual_output": true,
+    "second_run_same_decisions_and_image_bytes": true,
+    "source_config_and_baseline_unchanged": true,
+    "temporary_output_cleaned": true
+  },
+  "source_config_sha256": "4763c09104f36f6895cb0fa2f7c92cf69c9f63e308c3b6da68ab49a006f00ba9",
+  "image_sha256_by_sku": {
+    "M001": "2911e7a5c69c3310d30ec1587f96f51972708f03643f6e81564faa7a31c069a7",
+    "M002": "ffbdc669fcd9c2e27e2ed7c870f2572f453893d7595de2cb3d9998e6bdf655ef",
+    "M003": "9162e42a58319cff09405bcd6afdefe7f9906e5315d308d58e6ea3a06ca8f285",
+    "M004": "9243d4d522109b23809b79b7bf9b941640d9ad8c1438960bda5b634d0babf6e3",
+    "M005": "ddfc41e437bfb36ea9d1cf0fac51e3e1426b4ea393260e660a1cc8dd52d710b3",
+    "M006": "e83cf62feae6c1ad4034eb8cedfbe17365ed7e258764cfbecb45d162232e9abd",
+    "M007": "c284c2598ab91d26ed7a37b9e2aa0461da66e07e7f594da51f3e5ad5e346f301",
+    "M008": "3ad453d451cb63774c9c65dc75c3aa866873e3fef7f902155d66853fb387c9be",
+    "M009": "6a11ef56b57188ef939f4b5d6364b9d1db4753daaf948e87e4c6a66b5c364775",
+    "M010": "556f92c1d5140d2c8a997c1f73764d55395d061e14b6b8d1ea6df3f05988d960",
+    "M011": "48d2b7ad4e7073bec130c31c7ec75c0cd67779362b25ec65486180974b556715",
+    "M012": "65722a84137a40ddcb52a93601c072de893155dcd39e7dfca24cbe859c4324e4",
+    "M013": "5a9c25b8e11505a5493c09e541c8b54794cfe290f96a546fac6219374f231efc",
+    "M014": "a0cb27f46755539d5644b04321d2f1435a746f33b22dd5765c4d1a0f5e5fc9fa",
+    "M015": "48b33044cdab6e20191b6bbc8cc7740a8f178ab0a8f71862b74cd1399a0a3806",
+    "M016": "e97a2adb3d2a86d11aa2aad9d736e755dcc05655224302681ec2a3a02ca99b5b",
+    "M017": "09d19a199511ae3db581d212d0c97bb142c90b970218e0c9c3a333e44dc9e3e6",
+    "M018": "e1783591a7e3bd7dd170edc5f0003dc8cd919f531e39c807df5fe9cd4975da3a",
+    "M019": "981008fa1a190be47ce41a7976ad8d7a0cc0b8e64918c3ad8c1088a29de11c46",
+    "M020": "c00a4aafc7b8bc830de468244f6f5466b64f81d15ff5cf4253d3b1b4160db56e"
+  }
+}

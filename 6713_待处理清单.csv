@@ -1,0 +1,11 @@
+﻿sku,name,a_url,a_image_field,status,b_url,b_image_url,output_file,sha256,bytes,error,metadata_issue
+M021,Demo bottle M021,http://127.0.0.1:8770/6713_%E5%95%86%E5%93%81_M021.html,False,unmatched_b,,,,,0,,
+M022,Demo bottle M022,http://127.0.0.1:8770/6713_%E5%95%86%E5%93%81_M022.html,False,unmatched_b,,,,,0,,
+M023,Demo bottle M023,http://127.0.0.1:8770/6713_%E5%95%86%E5%93%81_M023.html,False,unmatched_b,,,,,0,,
+M024,Demo bottle M024,http://127.0.0.1:8770/6713_%E5%95%86%E5%93%81_M024.html,False,unmatched_b,,,,,0,,
+M025,Demo bottle M025,http://127.0.0.1:8770/6713_%E5%95%86%E5%93%81_M025.html,False,ambiguous_b,,,,,0,,
+M026,Demo bottle M026,http://127.0.0.1:8770/6713_%E5%95%86%E5%93%81_M026.html,False,ambiguous_b,,,,,0,,
+M027,Demo bottle M027,http://127.0.0.1:8770/6713_%E5%95%86%E5%93%81_M027.html,False,ambiguous_b,,,,,0,,
+M028,Demo bottle M028,http://127.0.0.1:8770/6713_%E5%95%86%E5%93%81_M028.html,False,missing_b_image,http://127.0.0.1:8771/6713_%E5%95%86%E5%93%81_M028.html,,,,0,,
+M029,Demo bottle M029,http://127.0.0.1:8770/6713_%E5%95%86%E5%93%81_M029.html,False,download_error,http://127.0.0.1:8771/6713_%E5%95%86%E5%93%81_M029.html,http://127.0.0.1:8771/6713_%E5%9B%BE%E7%89%87_M029.jpg,,,0,Invalid or unsupported image data (JPEG/PNG/WebP; maximum 40 million pixels),
+M030,Demo bottle M030,http://127.0.0.1:8770/6713_%E5%95%86%E5%93%81_M030.html,False,missing_b_image,http://127.0.0.1:8771/6713_%E5%95%86%E5%93%81_M030.html,,,,0,,

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "site_a": {
+    "start_url": "http://127.0.0.1:8770/6713_%E7%9B%AE%E5%BD%95_01.html",
+    "product_path_prefix": "/6713_商品_"
+  },
+  "site_b": {
+    "start_url": "http://127.0.0.1:8771/6713_%E7%9B%AE%E5%BD%95_01.html",
+    "product_path_prefix": "/6713_商品_"
+  },
+  "max_pages": 150,
+  "timeout_seconds": 5,
+  "delay_seconds": 0,
+  "max_image_bytes": 2097152
+}
